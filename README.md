@@ -1,1 +1,1 @@
-# CapstoneSplashPage
+# Cocina Splash Page
