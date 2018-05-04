@@ -1,1 +1,0 @@
-# Cocina Splash Page
