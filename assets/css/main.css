@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-color: #935d8c;
+		background-color: #2193b0;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #6dd5ed 15%, #2193b0 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #6dd5ed 15%, #2193b0 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #6dd5ed 15%, #2193b0 85%);
@@ -1644,7 +1644,7 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #2193b0;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
