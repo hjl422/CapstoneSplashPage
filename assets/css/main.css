@@ -2345,15 +2345,18 @@
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			/*color: #efa8b0;*/
+			color: #ffc700
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			/*color: #c79cc8;*/
+			color: #09a5c7;
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			/*color: #a89cc8;*/
+			color: #6a6969;
 		}
 
 		.icon.style4 {
@@ -2635,7 +2638,7 @@
 
 		dl.alt dt {
 			display: block;
-			width: 3em;
+			width: 8em;
 			margin: 0;
 			clear: left;
 			float: left;
@@ -2913,23 +2916,30 @@
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				/*background-color: #efa8b0;*/
+				background-color: #FFC700;
+				background-color: #006196;
 			}
 
 			.statistics li.style2 {
 				background-color: #c79cc8;
+				background-color: #EBE350;
+				background-color: #09A5C7;
 			}
 
 			.statistics li.style3 {
 				background-color: #a89cc8;
+				background-color: #53C3C4;
 			}
 
 			.statistics li.style4 {
 				background-color: #9bb2e1;
+				background-color: #09A5C7;
 			}
 
 			.statistics li.style5 {
 				background-color: #8cc9f0;
+				background-color: #006196;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3562,10 +3572,10 @@
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #6dd5ed 15%, #2193b0 85%);
+			background-image: -webkit-linear-gradient(90deg, #6dd5ed 15%, #2193b0 85%);
+			background-image: -ms-linear-gradient(90deg, #6dd5ed 15%, #2193b0 85%);
+			background-image: linear-gradient(90deg, #6dd5ed 15%, #2193b0 85%);
 		}
 
 		#main table tbody tr {
