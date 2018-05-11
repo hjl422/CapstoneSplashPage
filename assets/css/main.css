@@ -18,6 +18,10 @@
 		vertical-align: baseline;
 	}
 
+	#intro-content {
+		padding-bottom: 100px;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1646,6 +1650,12 @@
 	body {
 		background-color: #2193b0;
 		color: rgba(255, 255, 255, 0.65);
+	}
+
+	#google-home-intro img {
+		height: 300px;
+		width: 300px;
+		float: right;
 	}
 
 	body, input, select, textarea {
