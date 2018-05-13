@@ -48,10 +48,28 @@
 
 	#heading {
 		padding-left: 85px;
+		padding-right: 30px;
 		padding-top: 25px;
 		font-size: 16px;
 		line-height: 5px;
 		color: #636363;
+	}
+
+	#cocina-intro {
+		padding-top: 20px;
+		padding-left: 54px;
+		padding-right: 10px;
+		height: 81px;
+		width: 350px;
+	}
+
+	#cocina-reply {
+		padding-top: 10px;
+		height: 169px;
+		width: 353px;
+		padding-left: 0px;
+		padding-bottom: 30px;
+		padding-right: 10px;
 	}
 
 	#heading p {
