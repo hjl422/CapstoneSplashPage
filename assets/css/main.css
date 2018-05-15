@@ -72,6 +72,25 @@
 		padding-right: 10px;
 	}
 
+	#ingredients-bienvenido {
+		height: 109px;
+		width: 308px;
+		padding-left: 10px;
+		padding-top: 20px;
+	}
+
+	#ingredients-quesadilla {
+		height: 57px;
+		width: 466px;
+		padding-left: 232px;
+	}
+
+	#ingredients-response {
+		height: 157px;
+		width: 321px;
+		padding-left: 20px;
+	}
+
 	#heading p {
 		line-height: 0px;
 	}
@@ -1143,7 +1162,7 @@
 
 /* Me */
 
-	#me .pic {
+	#me .pic, #ingredients .pic, #cook .pic {
 		position: relative;
 		display: block;
 	}
@@ -1397,12 +1416,12 @@
 
 		/* Me */
 
-			#me {
+			#me, #ingredients, #cook {
 				padding: 0;
 				height: 20em;
 			}
 
-				#me .pic {
+				#me .pic, #ingredients .pic, #cook .pic {
 					display: block;
 					position: absolute;
 					right: -1px;
@@ -1411,7 +1430,7 @@
 					text-decoration: none;
 				}
 
-					#me .pic img {
+					#me .pic img, #ingredients .pic img, #cook .pic img {
 						position: relative;
 						display: block;
 						height: 100%;
