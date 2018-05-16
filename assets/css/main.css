@@ -55,40 +55,45 @@
 		color: #636363;
 	}
 
+	.response-center {
+		padding-left: 10%;
+	}
+
+	.response-left {
+		padding-left: 5%
+	}
+
+	.response-right {
+		padding-left: 20%
+	}
+
 	#cocina-intro {
 		padding-top: 20px;
-		padding-left: 54px;
-		padding-right: 10px;
-		height: 81px;
-		width: 350px;
+		width: 42.5%;
+		height: auto;
 	}
 
 	#cocina-reply {
 		padding-top: 10px;
-		height: 169px;
-		width: 353px;
-		padding-left: 0px;
-		padding-bottom: 30px;
-		padding-right: 10px;
+		padding-left: 0%;
+		width: 45%;
+		height: auto;
 	}
 
 	#ingredients-bienvenido {
-		height: 109px;
-		width: 308px;
-		padding-left: 10px;
+		width: 50%;
+		height: auto;
 		padding-top: 20px;
 	}
 
 	#ingredients-quesadilla {
-		height: 57px;
-		width: 466px;
-		padding-left: 232px;
+		width: 55%;
+		height: auto;
 	}
 
 	#ingredients-response {
-		height: 157px;
-		width: 321px;
-		padding-left: 20px;
+		width: 50%;
+		height: auto;
 	}
 
 	#heading p {
