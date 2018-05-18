@@ -96,7 +96,17 @@
 		height: auto;
 	}
 
-	div#para-one {
+	#paso-uno {
+		width: 50%;
+		height: auto;
+	}
+
+	#repite-paso-uno {
+		width: 55%;
+		height: auto;
+	}
+
+	div.para-one {
 		width: 50%;
 		height: auto;
 		padding-top: 15px;
