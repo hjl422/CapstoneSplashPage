@@ -114,6 +114,11 @@
 		text-align: center;
 	}
 
+	.iframe-video {
+		width: 100%;
+		height: 500px;
+	}
+
 	body {
 		/*line-height: 1em;*/
 	}
