@@ -110,14 +110,16 @@
 		PAGE 4 - Research
 	*/
 
-	#main article#research.panel {
-		display: inline;
-		padding: 5%;
-		height: auto;
+	#research .right-panel {
+		background-image: url("../../images/research.jpg")
 	}
 
-	#research.panel > h2, #research.panel > p {
-		margin: 5% 0;
+	#main article#research.panel {
+
+	}
+
+	#research .left-panel > h2, #research .left-panel > p {
+		margin: 5%;
 	}
 
 	/*
