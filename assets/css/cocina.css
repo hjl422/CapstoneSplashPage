@@ -126,11 +126,11 @@
 
 	#main article#demo.panel {
 		padding: 0;
-		height: auto;
+		height: 27em;
 	}
 
 	.iframe-video {
 		width: 100%;
-		height: auto;
+		height: 27em;
 		margin: 0;
 	}
