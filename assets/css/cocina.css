@@ -1,98 +1,128 @@
-	.panel {
+	#main article.panel {
+		width: 100%;
+		height: 27em;
+		padding: 0;
 		display: flex;
+		font-size: 14pt;
 	}
 
 	.left-panel {
 		width: 60%;
+		padding: 1em;
 	}
 
 	.right-panel {
 		width: 40%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 
-	#header.alt .logo img {
-		display: block;
-		margin: 0 auto;
-		max-width: 75%;
-	}
-
-	#header-heading {
+	.center-text {
 		text-align: center;
-		color: #ffffff;
+		padding: 2em;
 	}
 
-	#heading {
-		padding-left: 85px;
-		padding-right: 30px;
-		padding-top: 25px;
-		font-size: 16px;
-		/*line-height: 5px;*/
-		color: #636363;
+	.dialog-img {
+		width: 98%;
+		height: 3.5em;
+		margin: 1em;
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 
-	.response-center {
-		padding-left: 10%;
+	.center-img {
+		background-position: center;
 	}
 
-	.response-left {
-		padding-left: 5%
+	.left-img {
+		height: 6em;
+		background-position: left;
 	}
 
-	.response-right {
-		padding-left: 20%
+	.right-img {
+		background-position: right;
 	}
 
-	#cocina-intro {
-		padding-top: 20px;
-		width: 42.5%;
+	/*
+		PAGE 1 - Intro
+	*/
+
+	#intro .right-panel {
+		background-image: url("../../images/cookie-ghome.jpg");
+	}
+
+	#intro .img-1 {
+		background-image: url("../../images/1-hey.png");
+	}
+
+	#intro .img-2 {
+		background-image: url("../../images/2-cocina.png");
+		height: 7em;
+	}
+
+	/*
+		PAGE 2 - Ingredients
+	*/
+
+	#ingredients .right-panel {
+		background-image: url("../../images/cooking-1.jpg");
+	}
+
+	#ingredients .img-1 {
+		background-image: url("../../images/bienvenido.png");
+	}
+
+	#ingredients .img-2 {
+		background-image: url("../../images/quesadilla.png");
+
+	}
+
+	#ingredients .img-3 {
+		background-image: url("../../images/ingredients.png");
+		height: 11.1em;
+	}
+
+	/*
+		PAGE 3 - Cook
+	*/
+
+	#cook .right-panel {
+		background-image: url("../../images/cooking-4.jpg");
+	}
+
+	#cook .img-1 {
+		background-image: url("../../images/paso uno.png");
+		height: 7.2em;
+	}
+
+	#cook .img-2 {
+		background-image: url("../../images/si.png");
+		height: 3em;
+	}
+
+	#cook .img-3 {
+		background-image: url("../../images/paso dos.png");
+		height: 8.5em;
+	}
+
+	/*
+		PAGE 4 - Research
+	*/
+
+	#main article#research.panel {
+		display: inline;
+		padding: 5%;
 		height: auto;
 	}
 
-	#cocina-reply {
-		padding-top: 10px;
-		padding-left: 0%;
-		width: 45%;
-		height: auto;
+	#research.panel > h2, #research.panel > p {
+		margin: 5% 0;
 	}
 
-	#ingredients-bienvenido {
-		width: 50%;
-		height: auto;
-		padding-top: 20px;
-	}
-
-	#ingredients-quesadilla {
-		width: 55%;
-		height: auto;
-	}
-
-	#ingredients-response {
-		width: 50%;
-		height: auto;
-	}
-
-	#paso-uno {
-		width: 50%;
-		height: auto;
-	}
-
-	#repite-paso-uno {
-		width: 55%;
-		height: auto;
-	}
-
-	#si {
-		width: 50%;
-		height: auto;
-	}
-
-	div.para-one {
-		width: 50%;
-		height: auto;
-		padding-top: 15px;
-		white-space: normal;
-		text-align: center;
-	}
+	/*
+		PAGE 5 - Video
+	*/
 
 	.iframe-video {
 		width: 100%;
