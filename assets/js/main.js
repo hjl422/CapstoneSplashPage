@@ -134,11 +134,11 @@
 
 									// Set new active.
 										activePanelId = id;
-
+										/*
 										// Force scroll to top.
 											$hbw.animate({
 												scrollTop: 0
-											}, settings.resizeSpeed, 'swing');
+											}, settings.resizeSpeed, 'swing');*/
 
 										// Reposition.
 											$body._reposition();
